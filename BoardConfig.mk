@@ -26,7 +26,7 @@ TARGET_RECOVERY_DEVICE_MODULES := libinit_thea
 TARGET_OTA_ASSERT_DEVICE := thea,thea_umtsds,thea_ds,XT1072,XT1078,XT1079
 
 # Kernel
-TARGET_KERNEL_CONFIG := titan_defconfig
+TARGET_KERNEL_CONFIG := titan_ub_defconfig
 
 # Partitions
 BOARD_BOOTIMAGE_PARTITION_SIZE := 10444800
